@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://designsystem.conicle.co/
+description: >-
+  Conicle publishes a shared front-end design system exposed as a browser web-components
+  library (the ConicleWebComponents global), loaded across conicle.com and the ConicleX
+  business platform. This is a client-side embeddable UI component surface, distinct from
+  any server-side SDK (Conicle publishes no public API/SDK).
+site: https://designsystem.conicle.co/
+families:
+  - name: Conicle Web Components
+    kind: web-components
+    global: ConicleWebComponents
+    loaders:
+      - type: script
+        url: https://designsystem.conicle.co/conicle-web-components.js
+      - type: stylesheet
+        url: https://designsystem.conicle.co/conicle-web-components.css
+    notes: >-
+      Minified UMD web-components bundle (window.ConicleWebComponents) plus companion
+      stylesheet, referenced directly from the conicle.com Next.js front end. Individual
+      custom-element tag names are not enumerated in the design-system landing page and
+      were not fabricated here.

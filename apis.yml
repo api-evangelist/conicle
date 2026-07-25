@@ -1,7 +1,16 @@
 aid: conicle
 name: Conicle
-description: Conicle is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Conicle is a Thai education-technology company founded in 2014 and headquartered in Bangkok
+  that offers an all-in-one corporate learning platform (ConicleX) letting organizations build,
+  assign, and track online courses, in-house training, and skill-development pathways for their
+  employees. The cloud-based learning management system serves more than 50 leading enterprises —
+  including Honda, Coca-Cola, Unilever, McDonald's, Sansiri, and The Mall — and over one million
+  learners across the banking, retail, healthcare, energy, insurance, and consumer-product
+  sectors. Conicle has raised Series A funding led by InVent (the corporate venture arm of Intouch
+  Holdings), with backing from 500 Global and Stormbreaker Ventures. Conicle publishes a shared
+  design-system web-components library used across its properties but does not currently expose a
+  public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/conicle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://conicle.com/images/logo/conicle-og.png
 tags:
 - Company
+- EdTech
+- Learning Management System
+- Corporate Training
+- E-Learning
+- Design System
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,32 @@ maintainers:
 common:
 - type: Website
   url: https://conicle.com
+- type: Portal
+  url: https://conicle.com/business
+- type: Blog
+  url: https://conicle.com/business/community/blogs
+- type: Support
+  url: https://conicle.com/business/contact-us
+- type: HelpCenter
+  url: https://conicle.com/business/community
+- type: Login
+  url: https://conicle.com/business/space/login
+- type: SignUp
+  url: https://conicle.com/business/request-demo
+- type: Pricing
+  url: https://conicle.com/verse/subscription
+- type: PrivacyPolicy
+  url: https://conicle.com/business/privacy-policy
+- type: LinkedIn
+  url: https://th.linkedin.com/company/conicle-co.-ltd.
+- type: Facebook
+  url: https://www.facebook.com/conicleinc/
+- type: Components
+  url: components/conicle-components.yml
+- type: DomainSecurity
+  url: security/conicle-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
